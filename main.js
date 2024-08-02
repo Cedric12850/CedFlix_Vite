@@ -1,8 +1,8 @@
 import './style.css';
 import { searchfilm} from './search';
 
-import 'materialize-css/dist/css/materialize.min.css';
-import 'materialize-css/dist/js/materialize.min.js';
+//import 'materialize-css/dist/css/materialize.min.css';
+//import 'materialize-css/dist/js/materialize.min.js';
 
 
 document.querySelector('#app').innerHTML = `
@@ -14,7 +14,7 @@ document.querySelector('#app').innerHTML = `
       </section>
 
 
-      <section class="row">
+      <section class="boxFilm">
           <div class="cedFlix">
           </div>
       </section>
